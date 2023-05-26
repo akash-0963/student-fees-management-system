@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:my_project/pages/create_account.dart';
 import 'package:my_project/pages/fill_stu_details.dart';
 import 'package:my_project/pages/home_page.dart';
+import 'package:my_project/pages/payments_page.dart';
 import 'firebase_options.dart';
 import 'package:my_project/pages/landing_page.dart';
 import 'package:my_project/pages/login_page.dart';
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginScreen(), // Replace with your own login screen
         '/home': (context) => StudentHome(),
         '/create-account': (context) => CreateAccountPage(),
+        '/payments': (context) => PaymentsPortalPage(),
        // '/registration': (context) => RegistrationScreen(), // Replace with your own registration screen
       },
     );

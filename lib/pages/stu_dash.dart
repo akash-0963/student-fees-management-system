@@ -105,6 +105,7 @@ import 'package:intl/intl.dart';
 
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:my_project/pages/payments_page.dart';
 
 class StudentDashboard extends StatefulWidget {
   final String studentId;
@@ -228,7 +229,7 @@ class _StudentDashboardState extends State<StudentDashboard> {
             children: [
               ElevatedButton(
                 onPressed: () {
-                  // Handle fee submission action
+                  Navigator.pushReplacementNamed(context, '/payments');
                 },
                 child: Text('Submit Fee'),
               ),

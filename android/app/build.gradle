@@ -30,10 +30,10 @@ android {
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
-//    lintOptions {
-//        warning 'deprecation'
-//        warning 'unchecked'
-//    }
+    lintOptions {
+        warning 'deprecation'
+        warning 'unchecked'
+    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
